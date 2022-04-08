@@ -1,0 +1,79 @@
+
+mAR@DESKTOP-UL85ISB MINGW64 ~/Desktop/pruebagit/test (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/mAR/Desktop/pruebagit/test/.git/
+
+mAR@DESKTOP-UL85ISB MINGW64 ~/Desktop/pruebagit/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   images/mintty.2021-04-21_19-18-54.png
+        new file:   images/mintty.2021-04-21_19-28-41.png
+        new file:   images/mintty.2021-04-21_19-39-23.png
+        new file:   images/mintty.2021-04-21_19-43-12.png
+        new file:   images/mintty.2021-04-21_19-45-10.png
+        new file:   images/mintty.2021-04-21_19-46-34.png
+        new file:   images/mintty.2021-04-21_19-56-19.png
+        new file:   images/mintty.2021-04-21_20-02-16.png
+        new file:   index.html
+        new file:   style.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.rar
+
+
+mAR@DESKTOP-UL85ISB MINGW64 ~/Desktop/pruebagit/test (master)
+$ git add .
+
+mAR@DESKTOP-UL85ISB MINGW64 ~/Desktop/pruebagit/test (master)
+$ git commit -m "primer comentario"
+[master (root-commit) 931ad4e] primer comentario
+ 11 files changed, 18 insertions(+)
+ create mode 100644 images/mintty.2021-04-21_19-18-54.png
+ create mode 100644 images/mintty.2021-04-21_19-28-41.png
+ create mode 100644 images/mintty.2021-04-21_19-39-23.png
+ create mode 100644 images/mintty.2021-04-21_19-43-12.png
+ create mode 100644 images/mintty.2021-04-21_19-45-10.png
+ create mode 100644 images/mintty.2021-04-21_19-46-34.png
+ create mode 100644 images/mintty.2021-04-21_19-56-19.png
+ create mode 100644 images/mintty.2021-04-21_20-02-16.png
+ create mode 100644 index.html
+ create mode 100644 style.css
+ create mode 100644 test.rar
+
+mAR@DESKTOP-UL85ISB MINGW64 ~/Desktop/pruebagit/test (master)
+$ git remote add origin https://github.com/marceloAar/prueba.git
+git branch -M main
+git push -u origin main
+
+
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (14/14), 380.66 KiB | 2.70 MiB/s, done.
+Total 14 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/marceloAar/prueba.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+mAR@DESKTOP-UL85ISB MINGW64 ~/Desktop/pruebagit/test (main)
+$
+
+mAR@DESKTOP-UL85ISB MINGW64 ~/Desktop/pruebagit/test (main)
+$
+
+mAR@DESKTOP-UL85ISB MINGW64 ~/Desktop/pruebagit/test (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+mAR@DESKTOP-UL85ISB MINGW64 ~/Desktop/pruebagit/test (main)
+$
